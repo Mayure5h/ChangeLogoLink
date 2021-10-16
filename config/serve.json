@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://myclassbook.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "535c47be-d772-494d-b8c0-65652e590942": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "replaceLogoLink": {
+      "pageUrl": "https://myclassbook.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx",
+      "customActions": {
+        "535c47be-d772-494d-b8c0-65652e590942": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

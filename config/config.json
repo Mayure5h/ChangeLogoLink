@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "replace-logo-link-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/replaceLogoLink/ReplaceLogoLinkApplicationCustomizer.js",
+          "manifest": "./src/extensions/replaceLogoLink/ReplaceLogoLinkApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReplaceLogoLinkApplicationCustomizerStrings": "lib/extensions/replaceLogoLink/loc/{locale}.js"
+  }
+}

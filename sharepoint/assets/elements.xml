@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ReplaceLogoLink"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="535c47be-d772-494d-b8c0-65652e590942"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
